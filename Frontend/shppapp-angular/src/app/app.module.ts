@@ -11,10 +11,10 @@ import { RegisterComponent } from './register/register.component';
 
 
 @NgModule({
-  declarations: [    
-    HomeComponent, 
+  declarations: [
+    HomeComponent,
     HeaderComponent,
-    FooterComponent, 
+    FooterComponent,
     DetailProductComponent, OrderComponent, OrderConfirmComponent, LoginComponent, RegisterComponent
   ],
   imports: [
@@ -22,11 +22,11 @@ import { RegisterComponent } from './register/register.component';
   ],
   providers: [],
   bootstrap: [
-    //HomeComponent,
-    //DetailProductComponent,
-    // OrderComponent,
-    //OrderConfirmComponent,
-    // LoginComponent,
+    HomeComponent,
+    DetailProductComponent,
+    OrderComponent,
+    OrderConfirmComponent,
+    LoginComponent,
     RegisterComponent
   ]
 })
