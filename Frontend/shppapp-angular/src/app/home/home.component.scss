@@ -11,8 +11,13 @@
     margin-bottom: 20px;
 }
 
+/* Màu chữ của thẻ select */
 .product-category {
     width: 200px;
+}
+
+.product-category option {
+    color: black; /* Màu chữ của các tùy chọn trong thẻ select */
 }
 
 .search-input {
